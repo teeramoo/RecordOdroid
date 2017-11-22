@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -g  -rdynamic CMakeFiles/readIMU.dir/readIMU.cpp.o  -o readIMU -lboost_system -lboost_thread 

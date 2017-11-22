@@ -1,0 +1,7 @@
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/install.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/list_install_components.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/rebuild_cache.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/edit_cache.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/readIMU.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/install/strip.dir
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/build/CMakeFiles/install/local.dir

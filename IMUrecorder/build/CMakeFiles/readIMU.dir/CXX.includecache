@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/IMUrecorder/readIMU.cpp
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+strings.h
+-
+math.h
+-
+time.h
+-
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+csignal
+-
+errno.h
+-
+fcntl.h
+-
+string.h
+-
+termios.h
+-
+unistd.h
+-
+boost/thread.hpp
+-
+boost/date_time/posix_time/posix_time.hpp
+-
+
