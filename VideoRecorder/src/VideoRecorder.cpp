@@ -1,6 +1,11 @@
 
 #include "VideoRecorder.h"
 
+bool VideoRecorder::getReadyStatus()
+{
+    return bReadyStatus;
+}
+
 VideoRecorder::~VideoRecorder() {}
 
 VideoRecorder::VideoRecorder(bool _debug, int _imageWidth, int _imageHeight, double _fps,
@@ -17,6 +22,9 @@ void VideoRecorder::configCameras()
     camera2.set(CAP_PROP_FRAME_WIDTH, imageWidth);
     camera2.set(CAP_PROP_FRAME_HEIGHT, imageHeight);
     camera2.set(CAP_PROP_FPS, videoFPS);
+
+    cout << "Seting up cameras with 640x480 quality at 30 FPS" << endl;
+
 }
 
 void VideoRecorder::start()
@@ -27,7 +35,31 @@ void VideoRecorder::start()
         throw;
     }
     configCameras();
+
+    if(checkCameras() != 1)
+    {
+        cout << "error checking camera" << endl;
+        bReadyStatus = false;
+    }
+
+
     record();
+}
+
+int VideoRecorder::checkCameras()
+{
+    // check if we succeeded
+    if (!camera1.read(mImage1)) {
+        cerr << "ERROR! blank frame grabbed from camera 1\n";
+        return -1 ;
+    }
+    if (!camera2.read(mImage2)) {
+        cerr << "ERROR! blank frame grabbed from camera 2\n";
+        return -2;
+    }
+    mImage1.release();
+    mImage2.release();
+    return 1;
 }
 
 bool VideoRecorder::findCameras()
@@ -71,12 +103,9 @@ int VideoRecorder::findOneCamera(int _maxNum)
     return -1;
 }
 
-
-
 int VideoRecorder::record()
 {
-
-
+    
     videoWriter1.open(filePath + "vid1.avi", videoCodec, videoFPS, Size(imageWidth,imageHeight));
     if (!videoWriter1.isOpened()) {
         cerr << "Could not open the output video file 1 for write\n";
@@ -93,27 +122,22 @@ int VideoRecorder::record()
 
     int frame = 0;
     ofstream vidTimeWriter;
-    string timestampPath = filePath + "video_timstamp.txt";
+    string timestampPath = filePath + "video_timestamp.txt";
     vidTimeWriter.open(timestampPath);
 
     for (;;)
     {
-        // check if we succeeded
-        if (!camera1.read(mImage1)) {
-            cerr << "ERROR! blank frame grabbed from camera 1\n";
-            break;
-        }
-        if (!camera2.read(mImage2)) {
-            cerr << "ERROR! blank frame grabbed from camera 2\n";
-            break;
-        }
 
         // encode the frame into the videofile stream
     //    imshow("Live1", mImage1);
     //    imshow("Live2", mImage2);
+        camera1.read(mImage1);
+        camera2.read(mImage2);
         videoWriter1.write(mImage1);
         videoWriter2.write(mImage2);
 
+        mImage1.release();
+        mImage2.release();
         auto ms = (boost::posix_time::microsec_clock::local_time() - referencedTime).total_microseconds();
         vidTimeWriter << ms << "," << frame << endl;
 

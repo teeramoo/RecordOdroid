@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder
+CMAKE_SOURCE_DIR = "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/build
+CMAKE_BINARY_DIR = "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/build/CMakeFiles /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/build/CMakeFiles" "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/build/CMakeFiles/progress.marks"
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -150,6 +150,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/IMUrecorder.o: src/IMUrecorder.cpp.o
+
+.PHONY : src/IMUrecorder.o
+
+# target to build an object file
+src/IMUrecorder.cpp.o:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/IMUrecorder.cpp.o
+.PHONY : src/IMUrecorder.cpp.o
+
+src/IMUrecorder.i: src/IMUrecorder.cpp.i
+
+.PHONY : src/IMUrecorder.i
+
+# target to preprocess a source file
+src/IMUrecorder.cpp.i:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/IMUrecorder.cpp.i
+.PHONY : src/IMUrecorder.cpp.i
+
+src/IMUrecorder.s: src/IMUrecorder.cpp.s
+
+.PHONY : src/IMUrecorder.s
+
+# target to generate assembly for a file
+src/IMUrecorder.cpp.s:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/IMUrecorder.cpp.s
+.PHONY : src/IMUrecorder.cpp.s
+
 src/VideoRecorder.o: src/VideoRecorder.cpp.o
 
 .PHONY : src/VideoRecorder.o
@@ -177,6 +204,87 @@ src/VideoRecorder.cpp.s:
 	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/VideoRecorder.cpp.s
 .PHONY : src/VideoRecorder.cpp.s
 
+src/autopilot_interface.o: src/autopilot_interface.cpp.o
+
+.PHONY : src/autopilot_interface.o
+
+# target to build an object file
+src/autopilot_interface.cpp.o:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/autopilot_interface.cpp.o
+.PHONY : src/autopilot_interface.cpp.o
+
+src/autopilot_interface.i: src/autopilot_interface.cpp.i
+
+.PHONY : src/autopilot_interface.i
+
+# target to preprocess a source file
+src/autopilot_interface.cpp.i:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/autopilot_interface.cpp.i
+.PHONY : src/autopilot_interface.cpp.i
+
+src/autopilot_interface.s: src/autopilot_interface.cpp.s
+
+.PHONY : src/autopilot_interface.s
+
+# target to generate assembly for a file
+src/autopilot_interface.cpp.s:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/autopilot_interface.cpp.s
+.PHONY : src/autopilot_interface.cpp.s
+
+src/mavlink_control.o: src/mavlink_control.cpp.o
+
+.PHONY : src/mavlink_control.o
+
+# target to build an object file
+src/mavlink_control.cpp.o:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/mavlink_control.cpp.o
+.PHONY : src/mavlink_control.cpp.o
+
+src/mavlink_control.i: src/mavlink_control.cpp.i
+
+.PHONY : src/mavlink_control.i
+
+# target to preprocess a source file
+src/mavlink_control.cpp.i:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/mavlink_control.cpp.i
+.PHONY : src/mavlink_control.cpp.i
+
+src/mavlink_control.s: src/mavlink_control.cpp.s
+
+.PHONY : src/mavlink_control.s
+
+# target to generate assembly for a file
+src/mavlink_control.cpp.s:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/mavlink_control.cpp.s
+.PHONY : src/mavlink_control.cpp.s
+
+src/serial_port.o: src/serial_port.cpp.o
+
+.PHONY : src/serial_port.o
+
+# target to build an object file
+src/serial_port.cpp.o:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/serial_port.cpp.o
+.PHONY : src/serial_port.cpp.o
+
+src/serial_port.i: src/serial_port.cpp.i
+
+.PHONY : src/serial_port.i
+
+# target to preprocess a source file
+src/serial_port.cpp.i:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/serial_port.cpp.i
+.PHONY : src/serial_port.cpp.i
+
+src/serial_port.s: src/serial_port.cpp.s
+
+.PHONY : src/serial_port.s
+
+# target to generate assembly for a file
+src/serial_port.cpp.s:
+	$(MAKE) -f CMakeFiles/recordVideo.dir/build.make CMakeFiles/recordVideo.dir/src/serial_port.cpp.s
+.PHONY : src/serial_port.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +297,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/IMUrecorder.o"
+	@echo "... src/IMUrecorder.i"
+	@echo "... src/IMUrecorder.s"
 	@echo "... src/VideoRecorder.o"
 	@echo "... src/VideoRecorder.i"
 	@echo "... src/VideoRecorder.s"
+	@echo "... src/autopilot_interface.o"
+	@echo "... src/autopilot_interface.i"
+	@echo "... src/autopilot_interface.s"
+	@echo "... src/mavlink_control.o"
+	@echo "... src/mavlink_control.i"
+	@echo "... src/mavlink_control.s"
+	@echo "... src/serial_port.o"
+	@echo "... src/serial_port.i"
+	@echo "... src/serial_port.s"
 .PHONY : help
 
 

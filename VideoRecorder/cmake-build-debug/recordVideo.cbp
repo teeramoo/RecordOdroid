@@ -8,43 +8,44 @@
 		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug"/>
+				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug"/>
+				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug"/>
+				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="recordVideo">
-				<Option output="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/recordVideo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug"/>
+				<Option output="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug/recordVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include"/>
+					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/mavlink/v1.0"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/5"/>
@@ -56,20 +57,21 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideo"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="recordVideo/fast">
-				<Option output="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/recordVideo" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug"/>
+				<Option output="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug/recordVideo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/include"/>
+					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include"/>
+					<Add directory="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/mavlink/v1.0"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/local/include/opencv"/>
 					<Add directory="/usr/include/c++/5"/>
@@ -81,35 +83,62 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideo/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 recordVideo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/teeramoo/Desktop/ORB-slam-script/Using\ Opecv3.2/RecordVideos/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/include/VideoRecorder.h">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/IMUrecorder.h">
 			<Option target="recordVideo"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/main.cpp">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/VideoRecorder.h">
 			<Option target="recordVideo"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/src/VideoRecorder.cpp">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/autopilot_interface.h">
 			<Option target="recordVideo"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/CMakeLists.txt">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/mavlink/v1.0/common">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/mavlink_control.h">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/serial_port.h">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/main.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/src/IMUrecorder.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/src/VideoRecorder.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/src/autopilot_interface.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/src/mavlink_control.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/src/serial_port.cpp">
+			<Option target="recordVideo"/>
+		</Unit>
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
-		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+		<Unit filename="/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
 		</Unit>
 	</Project>

@@ -1,4 +1,4 @@
-/home/teeramoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.4343.16/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder
+/home/teeramoo/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/173.3727.114/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos"
 -- The C compiler identification is GNU 5.4.0
 -- The CXX compiler identification is GNU 5.4.0
 -- Check for working C compiler: /usr/bin/cc
@@ -34,4 +34,4 @@
 --   atomic
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/cmake-build-debug
+-- Build files have been written to: /home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/cmake-build-debug

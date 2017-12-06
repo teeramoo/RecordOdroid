@@ -12,8 +12,6 @@
 #include <boost/thread.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/filesystem.hpp>
-#include <csignal>
-#include <errno.h>
 
 using namespace std;
 using namespace cv;
@@ -24,7 +22,6 @@ public:
     //function declaration
     VideoRecorder(bool _debug, int _imageWidth, int _imageHeight, double _videoFPS,
                   int _videoCodec, string _filePath, boost::posix_time::ptime const _referencedTime);
-    VideoRecorder();
     ~VideoRecorder();
 
     bool findCameras();
@@ -32,6 +29,9 @@ public:
     void start();
     int record();
     void configCameras();
+    bool getReadyStatus();
+    int checkCameras();
+
 
     //variable declaration
 private:
@@ -48,7 +48,10 @@ private:
     int videoCodec;
     double videoFPS;
     boost::posix_time::ptime const referencedTime;
+    bool bReadyStatus;
+
 };
+
 
 
 

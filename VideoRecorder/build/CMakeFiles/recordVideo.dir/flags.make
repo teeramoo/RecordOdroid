@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/teeramoo/Desktop/ORB-slam-script/RecorderForOdroid/VideoRecorder/include -isystem /usr/local/include -isystem /usr/local/include/opencv 
+CXX_INCLUDES = -I"/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include" -I"/home/teeramoo/Desktop/ORB-slam-script/Using Opecv3.2/RecordVideos/include/mavlink/v1.0" -isystem /usr/local/include -isystem /usr/local/include/opencv 
 
